@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nasa",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NASA MCP — wraps NASA Open APIs (api.nasa.gov)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nasa",
     "gatewaySlug": "nasa",
-    "sourceHash": "v1-ea72422842f09ba77bec06c0a59cca795d28560c8257d8666be1fa2d68e98316",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-dcabec19abb7f86066a8280b292af25b1c49a0bd3feaff00542f4ddde35e513d",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
