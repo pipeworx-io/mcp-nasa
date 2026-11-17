@@ -1,14 +1,14 @@
 # mcp-nasa
 
-NASA MCP — wraps NASA Open APIs (api.nasa.gov)
+Unofficial NASA MCP — wraps NASA Open APIs (api.nasa.gov)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1865+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_apod` | Get the NASA Astronomy Picture of the Day with explanation. Optionally specify a date. Example: get_apod({ date: "2024-01-15", _apiKey: "DEMO_KEY" }) |
+| `nasa_get_apod` | Get the NASA Astronomy Picture of the Day with explanation. Optionally specify a date. Example: get_apod({ date: "2024-01-15", _apiKey: "DEMO_KEY" }) |
 | `get_asteroids` | Get near-Earth asteroids approaching within a date range (max 7 days). Returns size, velocity, and miss distance. Example: get_asteroids({ start_date: "2024-01-01", end_date: "2024-01-07", _apiKey: "DEMO_KEY" }) |
 | `get_mars_photos` | "Show me photos from the Mars rover" / "Perseverance images from sol 1000" / "latest pictures from Mars" — raw images from NASA's Perseverance rover (Mars 2020), straight off the mars.nasa.gov feed. Filter by Martian sol and by camera. Returns image URLs at four resolutions, the sol, the UTC and Mars-local capture times, and the camera instrument. Keyless. Covers Perseverance only — Curiosity, Opportunity and Spirit have no live public image feed. Example: get_mars_photos({ sol: 1000, camera: "NAVCAM_LEFT" }) |
 | `search_nasa_images` | Search the NASA Image and Video Library for images/videos of any subject — planets, missions, astronauts, launches, galaxies, etc. PREFER for "NASA photos of Jupiter", "images of the Apollo 11 mission", "pictures of a nebula". Returns title, description, date, NASA ID, media type, and a thumbnail URL. Keyless. |
@@ -62,7 +62,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1865+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

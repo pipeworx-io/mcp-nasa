@@ -1,6 +1,6 @@
 [
   {
-    "name": "get_apod",
+    "name": "nasa_get_apod",
     "description": "Get the NASA Astronomy Picture of the Day with explanation. Optionally specify a date. Example: get_apod({ date: \"2024-01-15\", _apiKey: \"DEMO_KEY\" })",
     "inputSchema": {
       "type": "object",
